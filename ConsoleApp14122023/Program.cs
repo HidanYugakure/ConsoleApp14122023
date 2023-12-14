@@ -19,8 +19,12 @@ foreach (var item in group1.GetAllStudents())
 
 foreach (var item in group1.Sort())
 {
-    Console.WriteLine($"{item.Name} {item.SurName} {item.Age} {item.Point}");
+    Console.WriteLine($"{item.Point}");
 }
 
 Group group2 = new();
 Console.WriteLine(group2.GroupNo);
+Group group3 = new();
+Console.WriteLine(group3.GroupNo);
+Group group4 = new();
+Console.WriteLine(group4.GroupNo);
